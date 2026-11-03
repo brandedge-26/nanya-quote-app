@@ -1,0 +1,142 @@
+[
+  {
+    "id": "nano-x8",
+    "meshes": 223,
+    "bytes": 785712,
+    "profile": "nano-narrow",
+    "revision": "machine-specific-2026-11-02",
+    "design": "Compact twin-window enclosure",
+    "parts": [
+      "base",
+      "enclosure",
+      "table",
+      "axes",
+      "spindle",
+      "toolchanger",
+      "control",
+      "conveyor",
+      "door-left",
+      "door-right"
+    ]
+  },
+  {
+    "id": "nano-x10",
+    "meshes": 239,
+    "bytes": 832372,
+    "profile": "nano-wide",
+    "revision": "machine-specific-2026-11-02",
+    "design": "Wide compact enclosure",
+    "parts": [
+      "base",
+      "enclosure",
+      "table",
+      "axes",
+      "spindle",
+      "toolchanger",
+      "control",
+      "conveyor",
+      "door-left",
+      "door-right"
+    ]
+  },
+  {
+    "id": "nv-855",
+    "meshes": 215,
+    "bytes": 790984,
+    "profile": "nv-diagonal",
+    "revision": "machine-specific-2026-11-02",
+    "design": "Deep reinforced enclosure",
+    "parts": [
+      "base",
+      "enclosure",
+      "table",
+      "axes",
+      "spindle",
+      "toolchanger",
+      "control",
+      "conveyor",
+      "door-left",
+      "door-right"
+    ]
+  },
+  {
+    "id": "nv-1165",
+    "meshes": 220,
+    "bytes": 794432,
+    "profile": "nv-cross",
+    "revision": "machine-specific-2026-11-02",
+    "design": "Wide cross-braced enclosure",
+    "parts": [
+      "base",
+      "enclosure",
+      "table",
+      "axes",
+      "spindle",
+      "toolchanger",
+      "control",
+      "conveyor",
+      "door-left",
+      "door-right"
+    ]
+  },
+  {
+    "id": "nv-1270",
+    "meshes": 308,
+    "bytes": 855224,
+    "profile": "production-tall",
+    "revision": "machine-specific-2026-11-02",
+    "design": "Flat-roof production enclosure",
+    "parts": [
+      "base",
+      "enclosure",
+      "table",
+      "axes",
+      "spindle",
+      "toolchanger",
+      "control",
+      "conveyor",
+      "door-left",
+      "door-right"
+    ]
+  },
+  {
+    "id": "nv-1470",
+    "meshes": 361,
+    "bytes": 873708,
+    "profile": "production-deep",
+    "revision": "machine-specific-2026-11-02",
+    "design": "Deep ventilated production enclosure",
+    "parts": [
+      "base",
+      "enclosure",
+      "table",
+      "axes",
+      "spindle",
+      "toolchanger",
+      "control",
+      "conveyor",
+      "door-left",
+      "door-right"
+    ]
+  },
+  {
+    "id": "nv-1670",
+    "meshes": 359,
+    "bytes": 915528,
+    "profile": "production-extended",
+    "revision": "machine-specific-2026-11-02",
+    "design": "Extended-bed production enclosure",
+    "parts": [
+      "base",
+      "enclosure",
+      "table",
+      "axes",
+      "spindle",
+      "toolchanger",
+      "control",
+      "conveyor",
+      "door-left",
+      "door-right"
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+NANYA Quotation Studio 2.1.0
+Source commit: 48208af6a964517ee2532bf50040190c5d6c2233
+Model revision: machine-specific-2026-11-02

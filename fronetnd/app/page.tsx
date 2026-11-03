@@ -1,40 +1,90 @@
-import Image from "next/image";
+import type { Metadata } from "next";
 import Link from "next/link";
-import { SplashIntro } from "@/app/components/SplashIntro";
+import Script from "next/script";
+import { HomeOnboarding } from "@/app/components/HomeOnboarding";
+
+export const metadata: Metadata = {
+  title: "NANYA CNC — Quotation Studio",
+  description:
+    "Configure your NANYA CNC machining center. Explore seven machines, tailor your accessories, and download your personalized quotation.",
+};
 
 export default function Home() {
   return (
-    <SplashIntro>
-      <main className="flex flex-1 flex-col items-center justify-center bg-background px-6 text-center">
-        <div className="flex flex-col items-center gap-6">
-          <div className="relative h-28 w-28 sm:h-32 sm:w-32">
-            <Image
-              src="/logo.png"
-              alt="NANYA CNC"
-              fill
-              sizes="128px"
-              className="object-contain"
-              priority
-            />
+    <HomeOnboarding>
+      <link rel="icon" type="image/png" href="/studio/assets/logo.png" />
+      <link rel="preload" as="image" href="/studio/assets/nv-1270.png" />
+      <link rel="stylesheet" href="/studio/fonts.css" />
+      <link rel="stylesheet" href="/studio/styles.css" />
+      <link rel="stylesheet" href="/studio/experience.css" />
+      <Script src="/studio/assets/pdf-lib.min.js" strategy="afterInteractive" />
+      <Script
+        src="/studio/app.js"
+        type="module"
+        strategy="afterInteractive"
+      />
+
+      <a className="skip-link" href="#workspace">
+        Skip to quotation
+      </a>
+      <header className="header header--minimal">
+        <nav className="topnav" aria-label="Main navigation">
+          <a className="active" href="#" id="studio-link">
+            Quotation Studio<span className="studio-edition">02</span>
+            <span className="nav-dot"></span>
+          </a>
+          <Link href="/machines">Machine lineup</Link>
+          <Link href="/how-it-works">How it works</Link>
+        </nav>
+      </header>
+      <main id="workspace" className="workspace">
+        <section className="page-heading">
+          <div>
+            <div className="eyebrow">
+              <span></span> YOUR PRODUCTION. YOUR CONFIGURATION.
+            </div>
+            <h1>
+              Precision starts <span>with your choice.</span>
+            </h1>
+            <p>Select a machine. Make it yours. Get your quotation.</p>
           </div>
-
-          <h1 className="text-5xl font-extrabold leading-tight tracking-tight text-foreground sm:text-6xl">
-            Get Your <span className="text-primary">Quote</span>
-          </h1>
-
-          <p className="max-w-md text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Select your machine and accessories, and get your quotation in
-            seconds.
-          </p>
-
-          <Link
-            href="/quote"
-            className="mt-4 rounded-full bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-orange-400 active:bg-orange-500"
-          >
-            Start Quotation
-          </Link>
+          <div className="studio-mark">
+            <span className="mark-lines">///</span>
+            <span>
+              ENGINEERED FOR
+              <br />
+              <b>WHAT&rsquo;S NEXT.</b>
+            </span>
+          </div>
+        </section>
+        <nav className="stepper" aria-label="Quotation steps" id="stepper"></nav>
+        <div className="workspace-grid">
+          <div className="main-column" id="main-column"></div>
+          <aside className="summary" id="summary" aria-label="Your quotation summary"></aside>
         </div>
+        <footer className="page-footer">
+          <span>
+            © <span id="year"></span> NANYA CNC{" "}
+            <span className="footer-sep">/</span> Precision in every detail.
+          </span>
+          <button data-action="terms">
+            Quotation terms <span>↗</span>
+          </button>
+          <span className="footer-status">
+            <i></i> YOUR NEXT CHAPTER IN MANUFACTURING
+          </span>
+        </footer>
       </main>
-    </SplashIntro>
+      <div className="mobile-bar" id="mobile-bar"></div>
+      <div className="toast" id="toast" role="status" aria-live="polite"></div>
+      <dialog className="dialog" id="dialog" aria-labelledby="dialog-title">
+        <div id="dialog-content"></div>
+      </dialog>
+      <noscript>
+        <p className="noscript">
+          Please enable JavaScript to configure your NANYA CNC quotation.
+        </p>
+      </noscript>
+    </HomeOnboarding>
   );
 }

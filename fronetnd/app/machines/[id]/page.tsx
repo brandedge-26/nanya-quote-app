@@ -92,7 +92,7 @@ export default async function MachineDetailPage({
   return (
     <main className="flex flex-1 flex-col bg-background">
       <div className="sticky top-0 z-20 border-b border-white/5 bg-background/80 backdrop-blur-md">
-        <div className="mx-auto flex w-full max-w-4xl items-center gap-3 px-4 py-4 sm:px-8">
+        <div className="flex w-full items-center gap-3 px-5 py-4">
           <Link
             href="/"
             className="flex items-center gap-1 text-lg font-extrabold tracking-tight"
@@ -103,7 +103,7 @@ export default async function MachineDetailPage({
         </div>
       </div>
 
-      <div className="mx-auto flex w-full max-w-4xl flex-col gap-10 px-4 py-6 sm:px-8 sm:py-10">
+      <div className="flex w-full flex-col gap-10 px-5 py-6 sm:py-10">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
           <div className="relative h-56 w-full shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.08),transparent_55%),linear-gradient(145deg,#1a1a1a,#050505)] sm:h-64 sm:w-72">
             <Image
@@ -135,7 +135,7 @@ export default async function MachineDetailPage({
             </div>
 
             <Link
-              href={`/quote?machine=${machine.id}`}
+              href={`/?machine=${machine.id}`}
               className="mt-2 flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-orange-400 active:bg-orange-500 sm:w-fit"
             >
               Get Quotation for this Machine
@@ -272,7 +272,7 @@ export default async function MachineDetailPage({
         </div>
 
         <Link
-          href={`/quote?machine=${machine.id}`}
+          href={`/?machine=${machine.id}`}
           className="flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-orange-400 active:bg-orange-500 sm:w-fit"
         >
           Get Quotation for this Machine

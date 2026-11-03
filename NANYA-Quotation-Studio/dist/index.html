@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101112">
+  <meta name="description" content="Configure your NANYA CNC machining center. Explore seven machines, tailor your accessories, and download your personalized quotation.">
+  <title>NANYA CNC — Quotation Studio</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preload" as="image" href="assets/nv-1270.png">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="experience.css">
+  <script src="assets/pdf-lib.min.js" defer></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to quotation</a>
+  <header class="header">
+    <a class="brand" href="#" aria-label="NANYA CNC home"><img src="assets/logo.png" alt="NANYA CNC logo"><span>NANYA<span class="brand-cnc">CNC</span><small>PRECISION. WITHOUT LIMITS.</small></span></a>
+    <nav class="topnav" aria-label="Main navigation"><a class="active" href="#" id="studio-link">Quotation Studio<span class="studio-edition">02</span><span class="nav-dot"></span></a><button data-action="compare">Machine lineup</button><button data-action="help">How it works</button></nav>
+    <div class="header-right"><button class="replay-intro" data-action="intro" aria-label="Replay studio introduction" title="Replay studio introduction"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7V5ZM3 5v14"/></svg></button><span class="save-state"><i></i><span id="save-label">Workspace ready</span></span><button class="icon-button new-quote" data-action="reset" aria-label="Start a new quotation" title="New quotation"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></div>
+  </header>
+  <main id="workspace" class="workspace">
+    <div class="breadcrumb"><span>NANYA CNC</span><span>/</span>QUOTATION STUDIO <span class="breadcrumb-end">DESIGNED AROUND YOUR AMBITION <i></i></span></div>
+    <section class="page-heading"><div><div class="eyebrow"><span></span> YOUR PRODUCTION. YOUR CONFIGURATION.</div><h1>Precision starts <span>with your choice.</span></h1><p>Select a machine. Make it yours. Get your quotation.</p></div><div class="studio-mark"><span class="mark-lines">///</span><span>ENGINEERED FOR<br><b>WHAT’S NEXT.</b></span></div></section>
+    <nav class="stepper" aria-label="Quotation steps" id="stepper"></nav>
+    <div class="workspace-grid"><div class="main-column" id="main-column"></div><aside class="summary" id="summary" aria-label="Your quotation summary"></aside></div>
+    <footer class="page-footer"><span>© <span id="year"></span> NANYA CNC <span class="footer-sep">/</span> Precision in every detail.</span><button data-action="terms">Quotation terms <span>↗</span></button><span class="footer-status"><i></i> YOUR NEXT CHAPTER IN MANUFACTURING</span></footer>
+  </main>
+  <div class="mobile-bar" id="mobile-bar"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog class="dialog" id="dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <noscript><p class="noscript">Please enable JavaScript to configure your NANYA CNC quotation.</p></noscript>
+</body>
+</html>

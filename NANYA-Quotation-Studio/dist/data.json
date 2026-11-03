@@ -1,0 +1,1539 @@
+{
+  "models": [
+    {
+      "id": "nano-x8",
+      "name": "NANO-X8",
+      "series": "Compact Series",
+      "description": "3-Axis CNC Vertical Machining Center with MITSUBISHI M80A control, 12,000 RPM spindle, 800×500×550mm (X/Y/Z) travel.",
+      "image": "assets/nano-x8.png",
+      "price": 31000,
+      "travel": [
+        800,
+        500,
+        550
+      ],
+      "load": "700 Kg",
+      "table": "1000mm x 500mm",
+      "weight": "4,600 kg (4.6 tons)",
+      "specs": [
+        {
+          "title": "Control & Drive",
+          "rows": [
+            [
+              "CNC System",
+              "MITSUBISHI M80A"
+            ],
+            [
+              "Spindle Drive",
+              "Direct Driven (DDS)"
+            ],
+            [
+              "Motor Capacity",
+              "5.5-7.5kW, Torque: 47.8N/m"
+            ],
+            [
+              "Guide Way",
+              "Linear Motion Guide Way (Roller Type)"
+            ]
+          ]
+        },
+        {
+          "title": "Travel",
+          "rows": [
+            [
+              "X-Axis",
+              "800mm"
+            ],
+            [
+              "Y-Axis",
+              "500mm"
+            ],
+            [
+              "Z-Axis",
+              "550mm"
+            ],
+            [
+              "Spindle Center to Z Rail",
+              "560mm"
+            ],
+            [
+              "Spindle Nose to Table",
+              "85-635mm"
+            ]
+          ]
+        },
+        {
+          "title": "Table",
+          "rows": [
+            [
+              "Table Size",
+              "1000mm x 500mm"
+            ],
+            [
+              "T-Slot",
+              "3 x 18 x 102mm"
+            ],
+            [
+              "Max. Table Load",
+              "700 Kg"
+            ]
+          ]
+        },
+        {
+          "title": "Spindle",
+          "rows": [
+            [
+              "Taper / Diameter",
+              "BT40-140"
+            ],
+            [
+              "Drive Type",
+              "Direct Drive"
+            ],
+            [
+              "Spindle Speed",
+              "12,000 Rpm"
+            ],
+            [
+              "Motor Power",
+              "7.5kW, Torque 47.8N/m"
+            ]
+          ]
+        },
+        {
+          "title": "Feed",
+          "rows": [
+            [
+              "Rapid Traverse (X/Y/Z)",
+              "X:48 Y:48 Z:48 m/min"
+            ],
+            [
+              "Cutting Feed Rate",
+              "12 mm/min"
+            ]
+          ]
+        },
+        {
+          "title": "Automatic Tool Changer",
+          "rows": [
+            [
+              "Tools Magazine",
+              "Arm-type, 24 Tools"
+            ],
+            [
+              "Tool-to-Tool Timing",
+              "1.85 sec"
+            ],
+            [
+              "Max. Tool Dia. x Length",
+              "Ø80 x 300mm (Ø78 x 300mm with neighbor)"
+            ],
+            [
+              "Max. Tool Weight",
+              "7kg"
+            ],
+            [
+              "Max. Tool Dia. (Full)",
+              "Ø80mm"
+            ],
+            [
+              "Max. Tool Dia. (No Adjacent)",
+              "Ø300mm"
+            ]
+          ]
+        },
+        {
+          "title": "Motors Power Capacity",
+          "rows": [
+            [
+              "Spindle Motor",
+              "SJ-D7.5/12000, 5.5-7.5kW"
+            ],
+            [
+              "X-Axis Servo Motor",
+              "HG204S-D30 (2.0kW)"
+            ],
+            [
+              "Y-Axis Servo Motor",
+              "HG204S-D30 (2.0kW)"
+            ],
+            [
+              "Z-Axis Servo Motor",
+              "HG303B-D35 (3.0kW)"
+            ]
+          ]
+        },
+        {
+          "title": "Machine Accuracy",
+          "rows": [
+            [
+              "Positioning Accuracy (JIS)",
+              "±0.008mm / 300mm"
+            ],
+            [
+              "Repeat Positioning Accuracy (JIS)",
+              "±0.004mm"
+            ]
+          ]
+        },
+        {
+          "title": "Utilities",
+          "rows": [
+            [
+              "Coolant Tank Capacity",
+              "300L (1300W)"
+            ],
+            [
+              "Electric Power",
+              "3-phase AC 220V ±5% / AC 380V 60Hz ±5%"
+            ],
+            [
+              "Pneumatic Supply",
+              "≥ 6.5 Kg/cm²"
+            ],
+            [
+              "Ground Clearance (L x W x H)",
+              "2300 x 2200 x 2400mm"
+            ],
+            [
+              "Machine Weight",
+              "4,600 kg (4.6 tons)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nano-x10",
+      "name": "NANO-X10",
+      "series": "Compact Series",
+      "description": "3-Axis CNC Vertical Machining Center with MITSUBISHI M80A control, 12,000 RPM spindle, 1020×600×600mm (X/Y/Z) travel.",
+      "image": "assets/nano-x10.png",
+      "price": 36100,
+      "travel": [
+        1020,
+        600,
+        600
+      ],
+      "load": "800 Kg",
+      "table": "1200mm x 600mm",
+      "weight": "5,500 kg (5.5 tons)",
+      "specs": [
+        {
+          "title": "Control & Drive",
+          "rows": [
+            [
+              "CNC System",
+              "MITSUBISHI M80A"
+            ],
+            [
+              "Spindle Drive",
+              "Direct Driven (DDS)"
+            ],
+            [
+              "Motor Capacity",
+              "7.5-11kW, Torque: 210N/m"
+            ],
+            [
+              "Guide Way",
+              "Linear Motion Guide Way (Roller Type)"
+            ]
+          ]
+        },
+        {
+          "title": "Travel",
+          "rows": [
+            [
+              "X-Axis",
+              "1020mm"
+            ],
+            [
+              "Y-Axis",
+              "600mm"
+            ],
+            [
+              "Z-Axis",
+              "600mm"
+            ],
+            [
+              "Spindle Center to Z Rail",
+              "620mm"
+            ],
+            [
+              "Spindle Nose to Table",
+              "110-705mm"
+            ]
+          ]
+        },
+        {
+          "title": "Table",
+          "rows": [
+            [
+              "Table Size",
+              "1200mm x 600mm"
+            ],
+            [
+              "T-Slot",
+              "5 x 18 x 105mm"
+            ],
+            [
+              "Max. Table Load",
+              "800 Kg"
+            ]
+          ]
+        },
+        {
+          "title": "Spindle",
+          "rows": [
+            [
+              "Taper / Diameter",
+              "BT40-150"
+            ],
+            [
+              "Drive Type",
+              "Direct Drive"
+            ],
+            [
+              "Spindle Speed",
+              "12,000 Rpm"
+            ],
+            [
+              "Motor Power",
+              "11kW, Torque 210N/m"
+            ]
+          ]
+        },
+        {
+          "title": "Feed",
+          "rows": [
+            [
+              "Rapid Traverse (X/Y/Z)",
+              "X:40 Y:40 Z:40 m/min"
+            ],
+            [
+              "Cutting Feed Rate",
+              "12 mm/min"
+            ]
+          ]
+        },
+        {
+          "title": "Automatic Tool Changer",
+          "rows": [
+            [
+              "Tools Magazine",
+              "Arm-type, 24 Tools"
+            ],
+            [
+              "Tool-to-Tool Timing",
+              "1.85 sec"
+            ],
+            [
+              "Max. Tool Dia. x Length",
+              "Ø100 x 300mm (Ø78 x 300mm with neighbor)"
+            ],
+            [
+              "Max. Tool Weight",
+              "7kg"
+            ],
+            [
+              "Max. Tool Dia. (Full)",
+              "Ø100mm"
+            ],
+            [
+              "Max. Tool Dia. (No Adjacent)",
+              "Ø300mm"
+            ]
+          ]
+        },
+        {
+          "title": "Motors Power Capacity",
+          "rows": [
+            [
+              "Spindle Motor",
+              "SJ-D11/12000, 7.5-11kW"
+            ],
+            [
+              "X-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Y-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Z-Axis Servo Motor",
+              "HG303B-D35 (3.0kW)"
+            ]
+          ]
+        },
+        {
+          "title": "Machine Accuracy",
+          "rows": [
+            [
+              "Positioning Accuracy (JIS)",
+              "±0.008mm / 300mm"
+            ],
+            [
+              "Repeat Positioning Accuracy (JIS)",
+              "±0.004mm"
+            ]
+          ]
+        },
+        {
+          "title": "Utilities",
+          "rows": [
+            [
+              "Coolant Tank Capacity",
+              "300L (1300W)"
+            ],
+            [
+              "Electric Power",
+              "3-phase AC 220V ±5% / AC 380V 60Hz ±5%"
+            ],
+            [
+              "Pneumatic Supply",
+              "≥ 6.5 Kg/cm²"
+            ],
+            [
+              "Ground Clearance (L x W x H)",
+              "2900 x 2400 x 2600mm"
+            ],
+            [
+              "Machine Weight",
+              "5,500 kg (5.5 tons)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nv-855",
+      "name": "NV-855",
+      "series": "High Performance Line",
+      "description": "3-Axis CNC Vertical Machining Center with MITSUBISHI M80A control, 12,000 RPM spindle, 830×550×550mm (X/Y/Z) travel.",
+      "image": "assets/nv-855.png",
+      "price": 38000,
+      "travel": [
+        830,
+        550,
+        550
+      ],
+      "load": "800 Kg",
+      "table": "1000mm x 550mm",
+      "weight": "5,500 kg (5.5 tons)",
+      "specs": [
+        {
+          "title": "Control & Drive",
+          "rows": [
+            [
+              "CNC System",
+              "MITSUBISHI M80A"
+            ],
+            [
+              "Spindle Drive",
+              "Direct Driven (DDS)"
+            ],
+            [
+              "Motor Capacity",
+              "11-18.5kW, Torque: 296N/m"
+            ],
+            [
+              "Guide Way",
+              "Linear Motion Guide Way (Roller Type)"
+            ]
+          ]
+        },
+        {
+          "title": "Travel",
+          "rows": [
+            [
+              "X-Axis",
+              "830mm"
+            ],
+            [
+              "Y-Axis",
+              "550mm"
+            ],
+            [
+              "Z-Axis",
+              "550mm"
+            ],
+            [
+              "Spindle Center to Z Rail",
+              "595mm"
+            ],
+            [
+              "Spindle Nose to Table",
+              "140-690mm"
+            ]
+          ]
+        },
+        {
+          "title": "Table",
+          "rows": [
+            [
+              "Table Size",
+              "1000mm x 550mm"
+            ],
+            [
+              "T-Slot",
+              "5 x 18 x 100mm"
+            ],
+            [
+              "Max. Table Load",
+              "800 Kg"
+            ]
+          ]
+        },
+        {
+          "title": "Spindle",
+          "rows": [
+            [
+              "Taper / Diameter",
+              "BT40-150"
+            ],
+            [
+              "Drive Type",
+              "Direct Drive"
+            ],
+            [
+              "Spindle Speed",
+              "12,000 Rpm"
+            ],
+            [
+              "Motor Power",
+              "11-18.5kW, Torque 296N/m"
+            ]
+          ]
+        },
+        {
+          "title": "Feed",
+          "rows": [
+            [
+              "Rapid Traverse (X/Y/Z)",
+              "X:40 Y:40 Z:40 m/min"
+            ],
+            [
+              "Cutting Feed Rate",
+              "12 mm/min"
+            ]
+          ]
+        },
+        {
+          "title": "Automatic Tool Changer",
+          "rows": [
+            [
+              "Tools Magazine",
+              "Arm-type, 24 Tools"
+            ],
+            [
+              "Tool-to-Tool Timing",
+              "2.0 sec"
+            ],
+            [
+              "Max. Tool Dia. x Length",
+              "Ø100 x 300mm (Ø78 x 300mm with neighbor)"
+            ],
+            [
+              "Max. Tool Weight",
+              "7kg"
+            ],
+            [
+              "Max. Tool Dia. (Full)",
+              "Ø100mm"
+            ],
+            [
+              "Max. Tool Dia. (No Adjacent)",
+              "Ø300mm"
+            ]
+          ]
+        },
+        {
+          "title": "Motors Power Capacity",
+          "rows": [
+            [
+              "Spindle Motor",
+              "SJ-D11/12000, 11-18.5kW"
+            ],
+            [
+              "X-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Y-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Z-Axis Servo Motor",
+              "HG303B-D35 (3.0kW)"
+            ]
+          ]
+        },
+        {
+          "title": "Machine Accuracy",
+          "rows": [
+            [
+              "Positioning Accuracy (JIS)",
+              "±0.008mm / 300mm"
+            ],
+            [
+              "Repeat Positioning Accuracy (JIS)",
+              "±0.004mm"
+            ]
+          ]
+        },
+        {
+          "title": "Utilities",
+          "rows": [
+            [
+              "Coolant Tank Capacity",
+              "300L (1300W)"
+            ],
+            [
+              "Electric Power",
+              "3-phase AC 220V ±5% / AC 380V 60Hz ±5%"
+            ],
+            [
+              "Pneumatic Supply",
+              "≥ 6.5 Kg/cm²"
+            ],
+            [
+              "Ground Clearance (L x W x H)",
+              "2500 x 2200 x 2400mm"
+            ],
+            [
+              "Machine Weight",
+              "5,500 kg (5.5 tons)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nv-1165",
+      "name": "NV-1165",
+      "series": "High Performance Line",
+      "description": "3-Axis CNC Vertical Machining Center with MITSUBISHI M80A control, 12,000 RPM spindle, 1100×650×600mm (X/Y/Z) travel.",
+      "image": "assets/nv-1165.png",
+      "price": 44000,
+      "travel": [
+        1100,
+        650,
+        600
+      ],
+      "load": "800 Kg",
+      "table": "1200mm x 600mm",
+      "weight": "6,500 kg (6.5 tons)",
+      "specs": [
+        {
+          "title": "Control & Drive",
+          "rows": [
+            [
+              "CNC System",
+              "MITSUBISHI M80A"
+            ],
+            [
+              "Spindle Drive",
+              "Direct Driven (DDS)"
+            ],
+            [
+              "Motor Capacity",
+              "11-18.5kW, Torque: 296N/m"
+            ],
+            [
+              "Guide Way",
+              "Linear Motion Guide Way (Roller Type)"
+            ]
+          ]
+        },
+        {
+          "title": "Travel",
+          "rows": [
+            [
+              "X-Axis",
+              "1100mm"
+            ],
+            [
+              "Y-Axis",
+              "650mm"
+            ],
+            [
+              "Z-Axis",
+              "600mm"
+            ],
+            [
+              "Spindle Center to Z Rail",
+              "680mm"
+            ],
+            [
+              "Spindle Nose to Table",
+              "130-730mm"
+            ]
+          ]
+        },
+        {
+          "title": "Table",
+          "rows": [
+            [
+              "Table Size",
+              "1200mm x 600mm"
+            ],
+            [
+              "T-Slot",
+              "5 x 18 x 100mm"
+            ],
+            [
+              "Max. Table Load",
+              "800 Kg"
+            ]
+          ]
+        },
+        {
+          "title": "Spindle",
+          "rows": [
+            [
+              "Taper / Diameter",
+              "BT40-150"
+            ],
+            [
+              "Drive Type",
+              "Direct Drive"
+            ],
+            [
+              "Spindle Speed",
+              "12,000 Rpm"
+            ],
+            [
+              "Motor Power",
+              "11-18.5kW, Torque 296N/m"
+            ]
+          ]
+        },
+        {
+          "title": "Feed",
+          "rows": [
+            [
+              "Rapid Traverse (X/Y/Z)",
+              "X:40 Y:40 Z:40 m/min"
+            ],
+            [
+              "Cutting Feed Rate",
+              "12 mm/min"
+            ]
+          ]
+        },
+        {
+          "title": "Automatic Tool Changer",
+          "rows": [
+            [
+              "Tools Magazine",
+              "Arm-type, 24 Tools"
+            ],
+            [
+              "Tool-to-Tool Timing",
+              "2.0 sec"
+            ],
+            [
+              "Max. Tool Dia. x Length",
+              "Ø100 x 300mm (Ø78 x 300mm with neighbor)"
+            ],
+            [
+              "Max. Tool Weight",
+              "7kg"
+            ],
+            [
+              "Max. Tool Dia. (Full)",
+              "Ø100mm"
+            ],
+            [
+              "Max. Tool Dia. (No Adjacent)",
+              "Ø300mm"
+            ]
+          ]
+        },
+        {
+          "title": "Motors Power Capacity",
+          "rows": [
+            [
+              "Spindle Motor",
+              "SJ-D11/12000, 11-18.5kW"
+            ],
+            [
+              "X-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Y-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Z-Axis Servo Motor",
+              "HG303B-D35 (3.0kW)"
+            ]
+          ]
+        },
+        {
+          "title": "Machine Accuracy",
+          "rows": [
+            [
+              "Positioning Accuracy (JIS)",
+              "±0.008mm / 300mm"
+            ],
+            [
+              "Repeat Positioning Accuracy (JIS)",
+              "±0.004mm"
+            ]
+          ]
+        },
+        {
+          "title": "Utilities",
+          "rows": [
+            [
+              "Coolant Tank Capacity",
+              "300L (1300W)"
+            ],
+            [
+              "Electric Power",
+              "3-phase AC 220V ±5% / AC 380V 60Hz ±5%"
+            ],
+            [
+              "Pneumatic Supply",
+              "≥ 6.5 Kg/cm²"
+            ],
+            [
+              "Ground Clearance (L x W x H)",
+              "2700 x 2300 x 2550mm"
+            ],
+            [
+              "Machine Weight",
+              "6,500 kg (6.5 tons)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nv-1270",
+      "name": "NV-1270",
+      "series": "High Performance Line",
+      "description": "3-Axis CNC Vertical Machining Center with MITSUBISHI M80A control, 12,000 RPM spindle, 1200×700×700mm (X/Y/Z) travel.",
+      "image": "assets/nv-1270.png",
+      "price": 48000,
+      "travel": [
+        1200,
+        700,
+        700
+      ],
+      "load": "1200 Kg",
+      "table": "1300mm x 700mm",
+      "weight": "8,000 kg (8 tons)",
+      "specs": [
+        {
+          "title": "Control & Drive",
+          "rows": [
+            [
+              "CNC System",
+              "MITSUBISHI M80A"
+            ],
+            [
+              "Spindle Drive",
+              "Direct Driven (DDS)"
+            ],
+            [
+              "Motor Capacity",
+              "11-18.5kW, Torque: 296N/m"
+            ],
+            [
+              "Guide Way",
+              "4-Line Linear Motion Guide Way (Roller Type)"
+            ]
+          ]
+        },
+        {
+          "title": "Travel",
+          "rows": [
+            [
+              "X-Axis",
+              "1200mm"
+            ],
+            [
+              "Y-Axis",
+              "700mm"
+            ],
+            [
+              "Z-Axis",
+              "700mm"
+            ],
+            [
+              "Spindle Center to Z Rail",
+              "750mm"
+            ],
+            [
+              "Spindle Nose to Table",
+              "100-800mm"
+            ]
+          ]
+        },
+        {
+          "title": "Table",
+          "rows": [
+            [
+              "Table Size",
+              "1300mm x 700mm"
+            ],
+            [
+              "T-Slot",
+              "5 x 18 x 120mm"
+            ],
+            [
+              "Max. Table Load",
+              "1200 Kg"
+            ]
+          ]
+        },
+        {
+          "title": "Spindle",
+          "rows": [
+            [
+              "Taper / Diameter",
+              "BT40-150"
+            ],
+            [
+              "Drive Type",
+              "Direct Drive"
+            ],
+            [
+              "Spindle Speed",
+              "12,000 Rpm"
+            ],
+            [
+              "Motor Power",
+              "11-18.5kW, Torque 296N/m"
+            ]
+          ]
+        },
+        {
+          "title": "Feed",
+          "rows": [
+            [
+              "Rapid Traverse (X/Y/Z)",
+              "X:30 Y:30 Z:30 m/min"
+            ],
+            [
+              "Cutting Feed Rate",
+              "12 mm/min"
+            ]
+          ]
+        },
+        {
+          "title": "Automatic Tool Changer",
+          "rows": [
+            [
+              "Tools Magazine",
+              "Arm-type, 24 Tools"
+            ],
+            [
+              "Tool-to-Tool Timing",
+              "2.4 sec"
+            ],
+            [
+              "Max. Tool Dia. x Length",
+              "Ø100 x 300mm (Ø78 x 300mm with neighbor)"
+            ],
+            [
+              "Max. Tool Weight",
+              "7kg"
+            ],
+            [
+              "Max. Tool Dia. (Full)",
+              "Ø100mm"
+            ],
+            [
+              "Max. Tool Dia. (No Adjacent)",
+              "Ø300mm"
+            ]
+          ]
+        },
+        {
+          "title": "Motors Power Capacity",
+          "rows": [
+            [
+              "Spindle Motor",
+              "SJ-D11/12000, 11-18.5kW"
+            ],
+            [
+              "X-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Y-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Z-Axis Servo Motor",
+              "HG303B-D35 (3.0kW)"
+            ]
+          ]
+        },
+        {
+          "title": "Machine Accuracy",
+          "rows": [
+            [
+              "Positioning Accuracy (JIS)",
+              "±0.008mm / 300mm"
+            ],
+            [
+              "Repeat Positioning Accuracy (JIS)",
+              "±0.004mm"
+            ]
+          ]
+        },
+        {
+          "title": "Utilities",
+          "rows": [
+            [
+              "Coolant Tank Capacity",
+              "300L (1300W)"
+            ],
+            [
+              "Electric Power",
+              "3-phase AC 220V ±5% / AC 380V 60Hz ±5%"
+            ],
+            [
+              "Pneumatic Supply",
+              "≥ 6.5 Kg/cm²"
+            ],
+            [
+              "Ground Clearance (L x W x H)",
+              "3500 x 2400 x 2650mm"
+            ],
+            [
+              "Machine Weight",
+              "8,000 kg (8 tons)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nv-1470",
+      "name": "NV-1470",
+      "series": "High Performance Line",
+      "description": "3-Axis CNC Vertical Machining Center with MITSUBISHI M80A control, 12,000 RPM spindle, 1400×700×700mm (X/Y/Z) travel.",
+      "image": "assets/nv-1470.png",
+      "price": 55000,
+      "travel": [
+        1400,
+        700,
+        700
+      ],
+      "load": "1200 Kg",
+      "table": "1500mm x 700mm",
+      "weight": "8,600 kg (8.6 tons)",
+      "specs": [
+        {
+          "title": "Control & Drive",
+          "rows": [
+            [
+              "CNC System",
+              "MITSUBISHI M80A"
+            ],
+            [
+              "Spindle Drive",
+              "Direct Driven (DDS)"
+            ],
+            [
+              "Motor Capacity",
+              "11-18.5kW, Torque: 296N/m"
+            ],
+            [
+              "Guide Way",
+              "Linear Motion Guide Way (Roller Type)"
+            ]
+          ]
+        },
+        {
+          "title": "Travel",
+          "rows": [
+            [
+              "X-Axis",
+              "1400mm"
+            ],
+            [
+              "Y-Axis",
+              "700mm"
+            ],
+            [
+              "Z-Axis",
+              "700mm"
+            ],
+            [
+              "Spindle Center to Z Rail",
+              "750mm"
+            ],
+            [
+              "Spindle Nose to Table",
+              "100-800mm"
+            ]
+          ]
+        },
+        {
+          "title": "Table",
+          "rows": [
+            [
+              "Table Size",
+              "1500mm x 700mm"
+            ],
+            [
+              "T-Slot",
+              "5 x 18 x 120mm"
+            ],
+            [
+              "Max. Table Load",
+              "1200 Kg"
+            ]
+          ]
+        },
+        {
+          "title": "Spindle",
+          "rows": [
+            [
+              "Taper / Diameter",
+              "BT40-150"
+            ],
+            [
+              "Drive Type",
+              "Direct Drive"
+            ],
+            [
+              "Spindle Speed",
+              "12,000 Rpm"
+            ],
+            [
+              "Motor Power",
+              "11-18.5kW, Torque 296N/m"
+            ]
+          ]
+        },
+        {
+          "title": "Feed",
+          "rows": [
+            [
+              "Rapid Traverse (X/Y/Z)",
+              "X:30 Y:30 Z:30 m/min"
+            ],
+            [
+              "Cutting Feed Rate",
+              "12 mm/min"
+            ]
+          ]
+        },
+        {
+          "title": "Automatic Tool Changer",
+          "rows": [
+            [
+              "Tools Magazine",
+              "Arm-type, 24 Tools"
+            ],
+            [
+              "Tool-to-Tool Timing",
+              "2.0 sec"
+            ],
+            [
+              "Max. Tool Dia. x Length",
+              "Ø100 x 300mm (Ø78 x 300mm with neighbor)"
+            ],
+            [
+              "Max. Tool Weight",
+              "7kg"
+            ],
+            [
+              "Max. Tool Dia. (Full)",
+              "Ø100mm"
+            ],
+            [
+              "Max. Tool Dia. (No Adjacent)",
+              "Ø300mm"
+            ]
+          ]
+        },
+        {
+          "title": "Motors Power Capacity",
+          "rows": [
+            [
+              "Spindle Motor",
+              "SJ-D11/12000, 11-18.5kW"
+            ],
+            [
+              "X-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Y-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Z-Axis Servo Motor",
+              "HG303B-D35 (3.0kW)"
+            ]
+          ]
+        },
+        {
+          "title": "Machine Accuracy",
+          "rows": [
+            [
+              "Positioning Accuracy (JIS)",
+              "±0.008mm / 300mm"
+            ],
+            [
+              "Repeat Positioning Accuracy (JIS)",
+              "±0.004mm"
+            ]
+          ]
+        },
+        {
+          "title": "Utilities",
+          "rows": [
+            [
+              "Coolant Tank Capacity",
+              "300L (1300W)"
+            ],
+            [
+              "Electric Power",
+              "3-phase AC 220V ±5% / AC 380V 60Hz ±5%"
+            ],
+            [
+              "Pneumatic Supply",
+              "≥ 6.5 Kg/cm²"
+            ],
+            [
+              "Ground Clearance (L x W x H)",
+              "4000 x 2400 x 2650mm"
+            ],
+            [
+              "Machine Weight",
+              "8,600 kg (8.6 tons)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nv-1670",
+      "name": "NV-1670",
+      "series": "High Performance Line",
+      "description": "3-Axis CNC Vertical Machining Center with MITSUBISHI M80A control, 12,000 RPM spindle, 1600×700×700mm (X/Y/Z) travel.",
+      "image": "assets/nv-1670.png",
+      "price": 59000,
+      "travel": [
+        1600,
+        700,
+        700
+      ],
+      "load": "1500 Kg",
+      "table": "1700mm x 700mm",
+      "weight": "9,500 kg (9.5 tons)",
+      "specs": [
+        {
+          "title": "Control & Drive",
+          "rows": [
+            [
+              "CNC System",
+              "MITSUBISHI M80A"
+            ],
+            [
+              "Spindle Drive",
+              "Direct Driven (DDS)"
+            ],
+            [
+              "Motor Capacity",
+              "11-18.5kW, Torque: 296N/m"
+            ],
+            [
+              "Guide Way",
+              "Linear Motion Guide Way (Roller Type)"
+            ]
+          ]
+        },
+        {
+          "title": "Travel",
+          "rows": [
+            [
+              "X-Axis",
+              "1600mm"
+            ],
+            [
+              "Y-Axis",
+              "700mm"
+            ],
+            [
+              "Z-Axis",
+              "700mm"
+            ],
+            [
+              "Spindle Center to Z Rail",
+              "750mm"
+            ],
+            [
+              "Spindle Nose to Table",
+              "100-800mm"
+            ]
+          ]
+        },
+        {
+          "title": "Table",
+          "rows": [
+            [
+              "Table Size",
+              "1700mm x 700mm"
+            ],
+            [
+              "T-Slot",
+              "5 x 18 x 120mm"
+            ],
+            [
+              "Max. Table Load",
+              "1500 Kg"
+            ]
+          ]
+        },
+        {
+          "title": "Spindle",
+          "rows": [
+            [
+              "Taper / Diameter",
+              "BT40-150"
+            ],
+            [
+              "Drive Type",
+              "Direct Drive"
+            ],
+            [
+              "Spindle Speed",
+              "12,000 Rpm"
+            ],
+            [
+              "Motor Power",
+              "11-18.5kW, Torque 296N/m"
+            ]
+          ]
+        },
+        {
+          "title": "Feed",
+          "rows": [
+            [
+              "Rapid Traverse (X/Y/Z)",
+              "X:30 Y:30 Z:30 m/min"
+            ],
+            [
+              "Cutting Feed Rate",
+              "12 mm/min"
+            ]
+          ]
+        },
+        {
+          "title": "Automatic Tool Changer",
+          "rows": [
+            [
+              "Tools Magazine",
+              "Arm-type, 24 Tools"
+            ],
+            [
+              "Tool-to-Tool Timing",
+              "2.0 sec"
+            ],
+            [
+              "Max. Tool Dia. x Length",
+              "Ø100 x 300mm (Ø78 x 300mm with neighbor)"
+            ],
+            [
+              "Max. Tool Weight",
+              "7kg"
+            ],
+            [
+              "Max. Tool Dia. (Full)",
+              "Ø100mm"
+            ],
+            [
+              "Max. Tool Dia. (No Adjacent)",
+              "Ø300mm"
+            ]
+          ]
+        },
+        {
+          "title": "Motors Power Capacity",
+          "rows": [
+            [
+              "Spindle Motor",
+              "SJ-D11/12000, 11-18.5kW"
+            ],
+            [
+              "X-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Y-Axis Servo Motor",
+              "HG304S-D35 (3.0kW)"
+            ],
+            [
+              "Z-Axis Servo Motor",
+              "HG303B-D35 (3.0kW)"
+            ]
+          ]
+        },
+        {
+          "title": "Machine Accuracy",
+          "rows": [
+            [
+              "Positioning Accuracy (JIS)",
+              "±0.008mm / 300mm"
+            ],
+            [
+              "Repeat Positioning Accuracy (JIS)",
+              "±0.004mm"
+            ]
+          ]
+        },
+        {
+          "title": "Utilities",
+          "rows": [
+            [
+              "Coolant Tank Capacity",
+              "300L (1300W)"
+            ],
+            [
+              "Electric Power",
+              "3-phase AC 220V ±5% / AC 380V 60Hz ±5%"
+            ],
+            [
+              "Pneumatic Supply",
+              "≥ 6.5 Kg/cm²"
+            ],
+            [
+              "Ground Clearance (L x W x H)",
+              "4000 x 2400 x 2650mm"
+            ],
+            [
+              "Machine Weight",
+              "9,500 kg (9.5 tons)"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "accessories": [
+    {
+      "id": "chain-conveyor",
+      "name": "Chain Chip Conveyor",
+      "short": "Chip conveyor",
+      "category": "MATERIAL HANDLING",
+      "description": "Keep chip removal part of your machining workflow.",
+      "icon": "conveyor",
+      "price": null
+    },
+    {
+      "id": "tool-probe",
+      "name": "Tool Probe (Tool Measurement)",
+      "short": "Tool measurement probe",
+      "category": "MEASUREMENT",
+      "description": "Add dedicated tool measurement to your setup.",
+      "icon": "probe",
+      "price": 390
+    },
+    {
+      "id": "cts-system",
+      "name": "CTS System (30 Bar Pressure)",
+      "short": "CTS system · 30 bar",
+      "category": "COOLANT DELIVERY",
+      "description": "Through-spindle coolant system with 30 bar pressure.",
+      "icon": "coolant",
+      "price": 4950
+    },
+    {
+      "id": "rotary-table",
+      "name": "4th Axis Rotary Table (170mm)",
+      "short": "4th axis rotary table",
+      "category": "MACHINING FLEXIBILITY",
+      "description": "Extend your configuration with a 170 mm rotary table.",
+      "icon": "rotary",
+      "price": 3380
+    },
+    {
+      "id": "packing",
+      "name": "International Packing",
+      "short": "International packing",
+      "category": "SHIPPING PREPARATION",
+      "description": "International packing option for your selected model.",
+      "icon": "box",
+      "price": null
+    },
+    {
+      "id": "optical-scale",
+      "name": "Optical Scale (Heidenhain, 3-Axis)",
+      "short": "Heidenhain optical scale",
+      "category": "POSITION FEEDBACK",
+      "description": "Three-axis optical scale. Pricing confirmed on request.",
+      "icon": "ruler",
+      "price": null
+    }
+  ],
+  "prices": {
+    "nano-x8": {
+      "chain-conveyor": 1400,
+      "packing": 1400
+    },
+    "nano-x10": {
+      "chain-conveyor": 1600,
+      "packing": 1400
+    },
+    "nv-855": {
+      "chain-conveyor": 1600,
+      "packing": 1600
+    },
+    "nv-1165": {
+      "chain-conveyor": 1800,
+      "packing": 1800
+    },
+    "nv-1270": {
+      "chain-conveyor": 2400,
+      "packing": 2200
+    },
+    "nv-1470": {
+      "chain-conveyor": 2600,
+      "packing": 2200
+    },
+    "nv-1670": {
+      "chain-conveyor": 2800,
+      "packing": 2400
+    }
+  },
+  "terms": [
+    "International packing & local transportation to sea port included.",
+    "Delivery period: 55-60 days from first down-payment receipt.",
+    "Payment: 30% advance, 60% before shipment, 10% upon satisfaction.",
+    "Price basis: FOB Shanghai sea-port.",
+    "Machine warranty: 24 months from the manufacturing date.",
+    "Quotation excludes machine installation or overseas transportation."
+  ],
+  "included": [
+    "Leveling screws with blocks",
+    "Toolbox",
+    "Air blast through spindle",
+    "Work lamp",
+    "Unclamping pedal",
+    "Three color light",
+    "Auto power off",
+    "Auto lubrication system",
+    "Rigid tapping & threading",
+    "USB port interface",
+    "Remote manual pulse generator",
+    "Oil spindle coolant system",
+    "Heat exchanger for control cabinet",
+    "Pressure system without source & air",
+    "High pressure water & air gun",
+    "System operation procedures manual",
+    "Machine operation manual",
+    "Chip conveyor chain"
+  ]
+}

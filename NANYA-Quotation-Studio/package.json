@@ -1,0 +1,14 @@
+{
+  "name": "nanya-quotation-studio",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "models": "node scripts/build-models.mjs",
+    "check:models": "node scripts/verify-models.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
